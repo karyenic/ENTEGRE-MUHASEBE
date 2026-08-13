@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+
+# Proje verileri - repoya dahil edilmemeli
+Data/*.db
+Yedekler/*.zip
+Yedekler/*.db
+
+# Google Drive Service Account anahtarı - ASLA repoya eklenmemeli
+*.json
+!package.json
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+
+# GİZLİ BİLGİLER - ASLA repoya eklenmemeli
+.env
+*.env
+.env.*

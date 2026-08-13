@@ -1,0 +1,4 @@
+PyQt5>=5.15
+SQLAlchemy>=2.0
+pyzipper>=0.3.6
+pydrive2>=1.15
